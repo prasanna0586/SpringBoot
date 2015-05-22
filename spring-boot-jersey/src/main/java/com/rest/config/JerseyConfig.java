@@ -12,6 +12,7 @@ import com.rest.controller.SumController;
 @Configuration
 @ApplicationPath("/")
 public class JerseyConfig extends ResourceConfig {
+	
 	public JerseyConfig () {
 		register(SumController.class);
 		register(HelloBean.class);
