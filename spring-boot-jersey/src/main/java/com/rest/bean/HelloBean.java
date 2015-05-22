@@ -1,6 +1,5 @@
 package com.rest.bean;
 
-
 public class HelloBean {
 	
 	private String name;
